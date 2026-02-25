@@ -1,0 +1,7 @@
+Robe da vedere in futuro
+
+Comunque scopri' perche'.
+-  Problemi di incompatibilita' con altri browser.    
+-Ottimizzare css.
+-Fare più test reali su mobile.
+-Vedi errori strani che mozilla da con background-att fixed combinato a un transofrm scale in giro per la pagina.

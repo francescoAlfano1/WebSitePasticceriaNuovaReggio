@@ -1,0 +1,61 @@
+Il sito è da testare meglio soprattutto  su mozilla. 
+Lo provi su chrome. (va anche su mozilla in generale)
+Veda il sito su altervista se vuole guardare il funzionamento del php .
+http://alfanoascuolalavoro.altervista.org/WebSitePasticceriaNuovaReggiotest/index.html
+
+// altervista non permette di usare "l'api" (non so se sto usando il termine giusto,) di google maps. Quindi 
+sul sito online la mappa non èvisualizzata. 
+
+
+(Scrivere la propria mail nella newsletter. (o nel form)Il php ci porta alla pagina grazie e mette in un file i nostri dati .(se aprimo il file vediamo questi dati ma senza entrare su altervista non può vederlo purtroppo.)
+)
+// altervista non permette di usare "l'api" , non so se sto usando il termine giusto, di google maps. Quindi 
+sul sito online la mappa non èvisualizzata. 
+
+
+Metodo di lavoro: abbiamo spezzettato i compiti in varie pari 
+Es: tizio fa il banner, pluto fa il footer ecc...
+alla fine ogni componente passava in mano mia ed ho cercato di rendere il tutto responsive tramite flexbox
+media query percentuali e max/min width/height
+
+
+CSS (proprietà nuove utilizzate)
+:
+Ho sfruttato le proprieta' flex per rendere il tutto più dinamico e responsive e ovviamente le media query.
+Alcune delle proprieta' flex usate .  Display:flex ; justify-content:center/start/bottom....;align-items:center/start...;
+flex-direction:row; flex-direction:column; align-itself:start/bottom....
+
+Altre cose nuove utilizzate
+max-width/height  min-width/height
+Transizioni . Varie Animazioni.(css , utilizzando keyframe) . Transform scale . I tag di default dei form . 
+
+
+PHP del form // fatto  da Luca Barone che ci ha spiegato come funziona.(il suo codice)
+
+
+Per le icone sono state utilizzate immagini svg free prese in giro per il web e dalla libreria FontAwesome 
+messa a disposizione gratuitamente da Bootstrap.  
+Per il Javascript il tutto è stato limitato ad un semplice "aggiungi classe" "togli classe" , nulla di complicato.
+
+Ho usato anche del jquery ma diciamo per sbaglio perche' sono andato a cercare come fare cio'
+ che mi serviva  e li ho confusi un po' all'inizio, avendo anche molti problemi a farli partire . (per jquery devi mettere
+la libreria ). 
+
+
+
+
+Cosa NON abbiamo fatto noi ? 
+
+NOTA:  il codice per lo smooth scrool non èstato implementato da noi, ma preso sul web e 
+copiato incollato cosi' com'era., mi serve perche'
+il sito sara' utilizzato realmente. 
+Questa caretteristica non è quindi ovviamente da considerare ai fini della valutazione.
+P.S !!! NON funziona nemmeno e non riesco a capire perche',, non ci capisco niente di quel codice,il file lho lasciato buttato li'.
+
+
+
+
+
+
+
+Grazie .  Francesco Alfano 3^C info . 

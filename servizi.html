@@ -1,0 +1,489 @@
+
+<html lang="it-IT">
+<head>
+ <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <!--dice a ie(che è stupido)che sto usando html5 e rende compatibile alcune cose-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- -->
+  <meta name="description" content="Homepage pasticceria NuovaReggio Nuova Reggio Dolci dolci zeppole specialita cucina pasticceria">
+  <meta name="author" content="Alfano Francesco Paolo">
+  <title>Servizi</title>
+  <link rel="shortcut icon" type="image/png" href="loghi/cornettofav.png" >
+  <!--corregge bug,resetta tutto di default-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css"> 
+  <!--  IL MIO STYLESHEET -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!--icone di Bootstrap-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+  
+<body>
+  <div id="wrapper">    <!--#wrapper BORDO viola-->
+    <header id="top">
+     <div id="top__inside">
+          <a href="index.html">
+            <img src="loghi/nuovareggiologo.svg" alt="">
+          </a>
+      </div>
+    </header>
+
+   <!--#nav BORDO GREEN-->
+     <nav id="nav" class="general-inside-center ">
+       
+            <!--#container-logo BORDER ORANGE-->
+       <div id="container-logo"> 
+          <a href="index.html"> <!--mettere link alla homepage-->
+           <div class="centra-img-inside-a">
+             <img src="loghi/nuovareggiologo.svg" alt="" TITLE="Pasticceria Nuova Reggio">
+            </div>
+           </a>
+
+         </div>
+
+      <div id="toggleNav">
+        <div id="hamburger" ><span class="hey_menu">Menu</span> <span>☰</span></div>
+       </div>
+         
+   
+       <!--#nav__menu BORDO RED-->
+       
+         <ul id="nav__menu"> 
+            
+             <li class="nav__menu__item">
+               <a href="index.html">
+                <img src="file-svg/cornettofav.svg" class="poof" >
+                 chi siamo
+               </a>
+             </li>
+
+             <li class="nav__menu__item ha-dropdown">
+
+                <a href="dolci.html">
+                       <img src="file-svg/cake-slice.svg" class="poof" >prodotti
+                </a>
+
+                 <ul class="submenu">
+                   <li class="subitem">
+                     <a href="dolci.html"><img src="file-svg/piece-of-cake.svg" class="poof" >Dolci</a>
+                     
+                   </li>
+                    <li class="subitem">
+                     <a href="salati.html"><img src="file-svg/pretzel.svg" class="poof" >Salati</a>
+         
+                   </li>
+                     <li class="subitem">
+                     <a href="specialita.html"><img src="file-svg/zeppola.svg" class="poof" >Specialità</a>
+                     
+                   </li>
+                 </ul>
+              </li>
+           
+              <li class="nav__menu__item ha-dropdown">
+                <a href="servizi.html">
+                       <img src="file-svg/zeppola.svg" class="poof" >specialità e servizi
+                </a>
+                <ul class="submenu">
+                   <li class="subitem">
+
+                     <a href="servizi.html">
+
+ <img src="file-svg/catering.svg" class="poof" >
+                     Catering</a>
+                     
+                   </li>
+                    <li class="subitem">
+                     <a href="festivita.html">
+<img src="file-svg/bunny.svg" class="poof" >
+                     festività</a>
+
+                     <li class="subitem">
+
+                     <a href="matrimoni.html">
+
+ <img src="file-svg/wedding-cake.svg" class="poof" >
+                     matrimoni</a>
+                     
+                   </li>
+         
+                 </ul>
+                
+              </li>
+           
+              <li class="nav__menu__item">
+                 <a href="DoveSiamoEContatti.html">
+                        <img src="file-svg/dovesiamo.svg" class="poof" >dove siamo e contatti
+                </a>
+               </li>
+           
+               <li class="nav__menu__item">
+                 <a href="community.html">
+                        <img src="file-svg/community.svg" class="poof" >Community
+                 </a>
+                </li>
+
+                <li class="nav__menu__item social">
+                  <a href="https://www.facebook.com/NuovareggioPasticceria/" target="_blank">
+                    <i class="fab fa-facebook-f"></i> 
+                  </a>
+                </li>
+
+                <li class="nav__menu__item social">
+                  <a href="page404.html" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+
+                <li class="nav__menu__item social">
+                  <a href="eccolamail.html" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+            </ul>  <!--#nav__menu BORDO RED--> 
+      
+        </nav>  <!--#nav BORDO GREEN-->
+
+
+
+    
+<div id="container_slider">
+  
+
+  <input type="radio" id="i1" name="images" checked/>
+  <input type="radio" id="i2" name="images" />
+  <input type="radio" id="i3" name="images" />
+  <input type="radio" id="i4" name="images"  />
+  
+  <div class="slide_img" id="one">      
+      
+      <img src="images/catering1.jpg">
+      
+        <label class="prev" for="i4"><span></span></label> <!-- for ="ultima img, in tal caso la 4"  -->
+        <label class="next" for="i2"><span></span></label>  <!-- for ="la successiva alla prima  -->
+    
+  </div>
+  
+  <div class="slide_img" id="two">
+    
+      <img src="images/wurstel.jpg " >
+      
+        <label class="prev" for="i1"><span></span></label>
+        <label class="next" for="i3"><span></span></label>
+    
+  </div>
+      
+  <div class="slide_img" id="three">
+      <img src="images/mandorle.jpg"> 
+      
+        <label class="prev" for="i2"><span></span></label>
+        <label class="next" for="i4"><span></span></label>
+  </div>
+
+
+  <div class="slide_img" id="four">
+      <img src="images/salatini.jpg"">  
+      
+        <label class="prev" for="i3"><span></span></label>
+        <label class="next" for="i1"><span></span></label>
+
+  </div>
+
+  <div id="nav_slide">
+    <label for="i1" class="dots" id="dot1"></label>
+    <label for="i2" class="dots" id="dot2"></label>
+    <label for="i3" class="dots" id="dot3"></label>
+    <label for="i4" class="dots" id="dot4"></label>
+  </div>
+    
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+      <div id="rowbottoni">
+      <ul id="bottoni">
+      <li class="bottoni__bottone">
+        <a href="specialita.html" alt="specialità">
+          <div class="circle">
+            <img src="file-svg/zeppola.svg"> 
+          </div>
+        <h4 class="button-title">specialità</h4>
+        </a>
+      </li>
+
+      <li class="bottoni__bottone">
+        <a href="salati.html" alt="salati">
+          <div class="circle"><img src="file-svg/pretzel.svg"></div>
+          
+          <h4 class="button-title">salati</h4>
+        </a>
+      </li>
+                        
+      <li class="bottoni__bottone">
+        <a href="dolci.html" alt="dolci">
+          <div class="circle"><img src="file-svg/cake-slice.svg"></div>
+          
+          <h4 class="button-title">dolci</h4>
+        </a>
+      </li>
+      
+      <li class="bottoni__bottone" >
+        <a href="matrimoni.html" alt="torte nuziali">
+          <div class="circle">  <img src="file-svg/tortanuziale.svg"></div>
+        
+           <h4 class="button-title">matrimoni</h4>
+        </a>
+      </li>
+    </ul>
+
+    </div>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <main id="main"> <!-- #main border celeste-->
+
+   <section id="storia" class="sezione">
+  <div class="storia__inside max--width-center">
+    
+<div class="fadeInSlider">
+  <img src="images/allavor.jpg">
+    <img src="images/cap.jpg">
+    <img src="images/salat.jpg">
+
+</div>
+    
+    
+
+    <div id="storia__chi-siamo">
+      <h2>Quali servizi offriamo?</h2>
+      <p>
+Proponiamo torte personalizzate  cake design , pasticceria dolce e salta, catering per matrimoni, feste private e aziendali, buffet per battesimi, comunioni e cresime , rinfreschi per inaugurazioni , compleanni , lauree e per ogni tipo di occasione.
+
+
+
+       </p>
+    </div>
+
+  </div>
+
+
+ 
+
+</section>
+
+<div class="parallax-background nosuschermigrandi center-metodo-flex " style="background-image:url(images/tortacioccolatobellissima.jpeg); height:100vh;">
+      <div class="inside-prodotti center-metodo-flex">
+         <h3 class="buonissimi titolo">Qui sotto trovi tutti i nostri contatti e qualche nostro prodotto . Clicca sui vari pulsanti per una vetrina più ampia.</h3>
+      </div>
+
+
+    </div>
+   <section class="sezione gallery-box">
+  <ul class="gallery">
+    <li><img src="images/vetrina.jpg" alt=""></li>
+    <li><img src="images/CakeDesign1.jpg" alt=""></li>
+    <li><img src="images/matrimoniocakebella.jpg" alt=""></li>
+    <li><img src="images/cas.jpg" alt=""></li>
+    <li><img src="images/vetrina3.jpg" alt=""></li>
+  </ul>
+</section>
+
+<div id="general-content" > <!-- 100% width e 100vh -->
+  
+  <div id="riga"> <!-- riga in cui ci sono form, coso social -->
+<div id="riga__dati-pasticceria">
+
+<h1>Contatti</h1>
+<div class="social">
+        <a href="https://www.facebook.com/" class="facebook">
+          <svg viewBox="0 0 33 33"><g><path d="M 17.996,32L 12,32 L 12,16 l-4,0 l0-5.514 l 4-0.002l-0.006-3.248C 11.993,2.737, 13.213,0, 18.512,0l 4.412,0 l0,5.515 l-2.757,0 c-2.063,0-2.163,0.77-2.163,2.209l-0.008,2.76l 4.959,0 l-0.585,5.514L 18,16L 17.996,32z"></path></g></svg>
+        </a>
+        <a href="https://twitter.com/" class="twitter">
+          <svg viewBox="0 0 33 33"><g><path d="M 32,6.076c-1.177,0.522-2.443,0.875-3.771,1.034c 1.355-0.813, 2.396-2.099, 2.887-3.632 c-1.269,0.752-2.674,1.299-4.169,1.593c-1.198-1.276-2.904-2.073-4.792-2.073c-3.626,0-6.565,2.939-6.565,6.565 c0,0.515, 0.058,1.016, 0.17,1.496c-5.456-0.274-10.294-2.888-13.532-6.86c-0.565,0.97-0.889,2.097-0.889,3.301 c0,2.278, 1.159,4.287, 2.921,5.465c-1.076-0.034-2.088-0.329-2.974-0.821c-0.001,0.027-0.001,0.055-0.001,0.083 c0,3.181, 2.263,5.834, 5.266,6.438c-0.551,0.15-1.131,0.23-1.73,0.23c-0.423,0-0.834-0.041-1.235-0.118 c 0.836,2.608, 3.26,4.506, 6.133,4.559c-2.247,1.761-5.078,2.81-8.154,2.81c-0.53,0-1.052-0.031-1.566-0.092 c 2.905,1.863, 6.356,2.95, 10.064,2.95c 12.076,0, 18.679-10.004, 18.679-18.68c0-0.285-0.006-0.568-0.019-0.849 C 30.007,8.548, 31.12,7.392, 32,6.076z"></path></g></svg>
+        </a>
+        <a href="https://www.linkedin.com/" class="linkedin">
+          <svg viewBox="0 0 512 512"><g><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path></g></svg>
+        </a>
+      </div>
+  <p>Puoi metterti in contatto con noi tramite</p>
+<ul>
+<li>Mail: <a href="eccolamail.html">nuovareggio@gmail.com
+</a></li>
+<li>Cell:0522 294988 </li>
+<li><a href="https://www.facebook.com/NuovareggioPasticceria/">Facebook</a></li>
+<li><a href="page404.html">Instagram</a></li>
+</ul>
+<p>Mandaci un commento e ricevi costanti aggiornamenti compilando il form .</p>
+
+<p>Ci troviamo in Via Fratelli Rosselli, 29 -42100 Reggio Emilia &darr;.</p>
+
+
+</div>
+    
+    
+    
+    <div id="form-ombra">
+      <form id="flex-form-complete"  method="POST" action="alfanoascuolalavoro.altervista.org/WebSitePasticceriaNuovaReggio/php/formcompleto.php">
+        <label for="name">Nome</label>
+         <input name="name" type="text"  id="name" class="feedback-input"   placeholder="Nome (non obbligatorio)"/>
+           <label for="email">Email<span class="obbligatorio">  (*obbligatoria)</span></label> 
+          <input name="email" type="text"  id="email" class="feedback-input" required placeholder="Email" />                  
+        <textarea name="comment" id="comment" class="feedback-input" placeholder="Inserisci qui il tuo commento (non obbligatorio)" ></textarea>            
+       
+          <input type="submit" value="INVIA" id="sendBtn" >
+       
+      </form>
+       </div>
+       
+    <div id="map-pasticceria"></div>
+
+    </div>
+   
+
+    
+</div>
+ 
+  
+     
+ <section id="newsletter">
+   <div class="max-width-center max-width-inside">
+     <div class="holdimg"><img src="file-svg/scrittaa.svg" alt="Get the Newsletter!"></div>
+      
+       <form id="flex-form" method="POST" action="php/newsletter.php">
+   
+          <input name="email" type="text"  id="email" class="feedback-input" required placeholder="Email" />                       
+          <input type="submit" value="INVIA" id="sendBtn" >
+         
+      </form>
+     
+   </div>
+   
+</section>
+   
+      
+      
+    </main> <!-- #main boder celeste -->
+
+    <div class="la-freccia">
+    <a href="#top">
+      <span class="la-freccia__top"></span>
+    </a>
+  </div>
+    
+<footer>
+  <div class="centered clearfix">
+
+    <div class="footer-logo">
+      <img class="logo" src="loghi/nuovareggiologo.svg">
+      <div class="social">
+        <a href="https://www.facebook.com/NuovareggioPasticceria/" class="facebook">
+          <svg viewBox="0 0 33 33"><g><path d="M 17.996,32L 12,32 L 12,16 l-4,0 l0-5.514 l 4-0.002l-0.006-3.248C 11.993,2.737, 13.213,0, 18.512,0l 4.412,0 l0,5.515 l-2.757,0 c-2.063,0-2.163,0.77-2.163,2.209l-0.008,2.76l 4.959,0 l-0.585,5.514L 18,16L 17.996,32z"></path></g></svg>
+        </a>
+        <a href="page404.html" class="instagram">
+     <img src="file-svg/instagram.svg">
+
+             </a>
+        <a href="eccolamail.html" class="lamail">
+          <img src="file-svg/lamail.svg">
+        </a>
+      </div>
+    </div>
+    <div class="footer-contact">
+       <h3><a href="">Contattaci</a></h3>
+       <p><a href="eccolamail.html" >nuovareggio@gmail.com</a></p>
+       <p><a href="tel:">Cell:  + 0522 294988</a></p>
+       <p><a href="https://www.google.it/maps/uv?hl=en&pb=!1s0x47801c8bbb611867:0x986fcf6c19fe073!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipOqAtJ3oSjcFQCe3IQ6zjsWBsx298c1fGdqBP3b%3Dw213-h160-k-no!5spasticceria+nuova+reggio+-+Google+Search&imagekey=!1e10!2sAF1QipOqAtJ3oSjcFQCe3IQ6zjsWBsx298c1fGdqBP3b&sa=X&ved=0ahUKEwjwkqbAsqTaAhWF3CwKHdsAAkoQoioIjQEwCg">Via Fretelli Rosselli<br />29 Reggio Emilia</a></p>
+    </div>
+    <div class="footer-navigation">
+      <div class="footer-links-holder">
+        <h3><a href="page404.html">Orari di apertura</a></h3>
+        <ul class="footer-links">
+          <li><a href="">mart-venerd<br>7-13 e 14-20:30</a></li>
+          <li><a href="">Lunedì chiusi</a></li>
+          <li><a href="">Domenica dalle 7 alle 13</a></li>
+          <li><a href="">Festività:SEMPRE aperti</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-holder">
+        <h3><a href="#top">Menu</a></h3>
+        <ul class="footer-links">
+          <li><a href="index.html">chi siamo</a></li>
+          <li><a href="dolci.html">prodotti</a></li>
+          <li><a href="specialita.html">specialità</a></li>
+          <li><a href="servizi.html">servizi</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-holder">
+        <h3><a href="specialita.html">Produzione</a></h3>
+        <ul class="footer-links">
+          <li><a href="dolci.html">Dolci</a></li>
+          <li><a href="salati.html">Salati</a></li>
+          <li><a href="festivita.html">Festività</a></li>
+          <li><a href="matrimoni.html">Cerimonie</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-bar" >
+    <div class="bottom-bar__inside" >
+     <span>Pasticceria Nuova Reggio   &nbsp;   |  </span> <span>     All Rights Reserved © 2016   &nbsp; |      </span> 
+     <span><a href="page404.html">  Privacy Policy</a>    &nbsp;|     </span>
+      <span><a href="page404.html">   Termini di servizio</a>   &nbsp; |   </span>
+      <span class="fattoda">  Designed and developed by   &nbsp; <a href="http://alfanoascuolalavoro.altervista.org/ChiSono.html">   Alfano Francesco</a> </span>
+  
+    </div>
+   
+ 
+  </div>
+</footer>  
+    
+
+  </div>
+
+
+<script src="assets/js/javascript.js"></script>
+
+
+</script>
+
+ <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+        <script>
+                if (document.getElementById('map-pasticceria')){
+                var myLatlng = new google.maps.LatLng(44.6892183,10.6148121);
+                    var mapOptions = {
+                        zoom: 17,
+                        center: myLatlng,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    var map = new google.maps.Map(document.getElementById("map-pasticceria"), mapOptions);
+                }
+        </script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/jquery/footer.js"></script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
